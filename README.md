@@ -48,3 +48,8 @@ No hay prórroga: suban avances parciales con commits pequeños durante la prueb
 | [`test-manager-library-3145556-page`](https://github.com/code-sena/test-manager-library-3145556-page) | Sitio público estático de presentación |
 | [`test-manager-library-3145556-infra`](https://github.com/code-sena/test-manager-library-3145556-infra) | Contenedores, red, volúmenes y motor de base de datos vacío |
 | [`test-manager-library-3145556-tool`](https://github.com/code-sena/test-manager-library-3145556-tool) | Utilidades: sembrador de datos de demostración |
+
+## This fork
+
+Static site in [`site/`](site/). It does not call the API: open `site/index.html` in a browser, or serve the folder with any
+static server (for example `npx serve site`). Layout adapts to mobile and desktop (T-23).

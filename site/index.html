@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manager Library — Biblioteca pequeña, préstamos claros</title>
+  <meta name="description" content="Manager Library lleva el catálogo, los socios y los préstamos de una biblioteca pequeña.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="bar">
+      <strong>Manager Library</strong>
+      <a href="#funciones">Funciones</a>
+      <a href="#reglas">Reglas</a>
+      <a href="#roles">Roles</a>
+    </nav>
+    <div class="hero-text">
+      <h1>El catálogo, los socios y los préstamos de tu biblioteca, en un solo lugar.</h1>
+      <p>Registra préstamos de hasta tres libros, recibe devoluciones línea por línea y mira qué libros se prestan más.</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="funciones">
+      <h2>Qué hace</h2>
+      <div class="grid">
+        <article><h3>Catálogo</h3><p>Libros con título, autor, ISBN, una de cinco categorías y portada opcional. Búsqueda por título o autor.</p></article>
+        <article><h3>Socios</h3><p>Personas que piden libros prestados, identificadas por su documento.</p></article>
+        <article><h3>Préstamos</h3><p>De uno a tres libros por préstamo, con vencimiento a 14 días y devolución por línea.</p></article>
+        <article><h3>Vencidos</h3><p>Lista de libros sin devolver, ordenada por días de retraso.</p></article>
+        <article><h3>Reporte</h3><p>Libros más prestados en un rango de fechas. No muestra datos de socios.</p></article>
+      </div>
+    </section>
+
+    <section id="reglas">
+      <h2>Reglas que el sistema cuida</h2>
+      <ul class="rules">
+        <li>Un socio no tiene más de 3 libros sin devolver.</li>
+        <li>Un socio con libros vencidos no puede pedir otro.</li>
+        <li>Nunca se presta un ejemplar que no existe, ni siquiera si dos personas piden el último al mismo tiempo.</li>
+        <li>Los préstamos no se borran y los libros solo se dan de baja.</li>
+      </ul>
+    </section>
+
+    <section id="roles">
+      <h2>Quién lo usa</h2>
+      <div class="grid two">
+        <article><h3>Administrador</h3><p>Mantiene el catálogo y los socios, crea bibliotecarios y consulta los reportes.</p></article>
+        <article><h3>Bibliotecario</h3><p>Registra préstamos y devoluciones, y consulta catálogo, socios y vencidos.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Manager Library · Prueba técnica SDD · Ficha ADSO 3145556 · SENA</p>
+  </footer>
+</body>
+</html>
